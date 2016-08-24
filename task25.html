@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>task25</title>
+		<style>
+			.hidden{
+				display: none;
+			}
+			.visible{
+				margin: 5px 18px;
+			}
+			.title {
+				line-height: 1.5em;
+			}
+			.empty-title{
+				color: #F5DC9E;
+			}
+			.full-title{
+				color: #80385D;
+			}
+			.arrow{
+				display: inline-block;
+				margin-right: 5px;
+			}
+			.empty-arrow{
+				 border-left:10px solid transparent;
+			}
+			.down-arrow{
+				width: 0;
+			    height: 0;
+			    border-left: 5px solid transparent;
+			    border-right: 5px solid transparent;
+			    border-top: 10px solid #80385D;
+			}
+			.right-arrow{
+				width: 0;
+			    height: 0;
+			    border-top: 5px solid transparent;
+			    border-left: 10px solid #80385D;
+			    border-bottom: 5px solid transparent;
+			}
+			.add,.del{
+				margin-top: 10px;
+				display: none;
+			}
+			label:hover>.add,label:hover>.del{
+				display: inline;
+			}
+			label:hover,.add:hover,.del:hover{
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	<body>
+		<fieldset>
+			<legend>Simple Demo</legend>
+			<input type="text" id="serch" />
+			<button>搜索</button>
+			<button>清除</button>
+			<p id="result"></p>
+			<div id="root">
+				<label>
+					<div class="arrow down-arrow"></div>
+					<span class="title empty-title">Type</span>
+					<span>&nbsp;&nbsp;</span>
+					<img class="add" src="img/add.png" />
+				</label>
+			</div>
+		</fieldset>
+		<script type="text/javascript" src="js/tash25.js" ></script>
+	</body>
+</html>

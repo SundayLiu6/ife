@@ -1,0 +1,37 @@
+.wrapper{
+    display: flex;
+    display: -webkit-flex;
+    justify-content:space-between;
+    align-items:center;
+    
+}
+[class*=box-]{
+    width: 150px;
+    padding: 20px;
+    border: 1px solid #f00;
+    margin: 20px 0 0 0;
+}
+.box-one{
+    height: 120px;
+
+}
+.box-two{
+    height: 100px;
+}
+.box-three{
+    height: 40px;
+}
+.box-four{
+    height: 200px;
+    border: 1px solid #00f;
+}
+
+@media (max-width: 640px){
+    .wrapper{
+        flex-wrap:wrap;
+        align-items:flex-start;
+    }
+    .box-four{
+        order:-1;
+    }
+}
