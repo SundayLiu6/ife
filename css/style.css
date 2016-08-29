@@ -322,10 +322,6 @@ a:hover {
 	padding-bottom: 30px;
 }
 
-#sidebar li ul li{
-	float: left;	
-}
-
 #sidebar li li {
 	line-height: 40px;
 	border-bottom: 1px solid #E7EBED;
