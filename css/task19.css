@@ -1,0 +1,14 @@
+#wrapper{
+	width: 100%;
+}
+#box{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end; 
+}
+
+.inner {
+	width: 30px;
+	background-color: red;
+	margin: 5px;
+}

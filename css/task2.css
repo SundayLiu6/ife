@@ -1,0 +1,155 @@
+body,html,div,header,ul,li{
+	padding: 0px;
+	margin: 0px;
+}
+#wrapper{
+	width: 1280px;
+	background: #dedede;
+}
+header{
+	width: 1280px;
+	height: 60px;
+	background: #333;
+}
+header img{
+	margin-left: 40px;
+}
+header ul{
+	height: 60px;
+	line-height: 60px;
+	float: right;
+}
+header ul li{
+	float: left;
+	height: 60px;
+}
+header ul li a{
+	color: #fff;
+	text-decoration: none;
+	padding-right: 25px;
+	font-size: 8px;
+}
+header ul li a:hover{
+	color: #A9AEB4;
+}
+article{
+	margin:20px;
+	padding: 20px;
+	background: #fff;
+	width: 1200px;
+	border: 1px solid #CDCDCD;
+	box-shadow: 2px 2px 1px #848484;
+	font-family: 黑体;
+}
+article h2{
+	font-size: 24px; 
+}
+article h3{
+	color: #66625F;
+}
+article summary{
+	color: #63625E;
+	font-size: 10px;
+}
+article p{
+	text-indent: 2em;
+	line-height: 25px;
+}
+article ul{
+	margin-left: 20px;
+	margin-top: 15px;
+}
+article ul li{
+	list-style: none;
+	line-height: 25px;
+}
+article div{
+	border: 1px solid #CECECE;
+	width: 300px;
+	margin: 20px 60px;
+}
+article div img{
+	width: 280px;
+	margin: 10px;
+	margin-top: 0px;
+}
+article div p{
+	line-height: 0px;
+}
+article ol{
+	margin-left: 10px;
+}
+article table{
+	width: 1200px;
+	border: 1px solid #CBCBCB;
+	border-collapse: collapse;
+}
+article table tr,article table td,article table th{
+	border: 1px solid #CBCBCB;
+	padding: 4px;
+	font-size: 13px;
+}
+article table th{
+	color: #fff;
+	text-align: left;
+	background: #333;
+}
+article table .sum{
+	background: #ccc;
+	border:0px;
+	font-weight: bold;
+}
+aside{
+	margin:20px;
+	padding: 20px;
+	background: #fff;
+	width: 1180px;
+	border: 1px solid #CDCDCD;
+	box-shadow: 2px 2px 1px #848484;
+}
+aside h2{
+	border-left: 3px solid #ccc;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	font-size: 18px;
+	font-family: 黑体;
+}
+aside table{
+	margin-left: 290px;
+}
+aside table label,aside table input,aside table p{
+	font-size: 14px;
+	font-family: 黑体;
+}
+aside table .left{
+	text-align: right;
+	padding-right: 10px;
+}
+aside table p{
+	color: #C6C6C4;
+	margin: 5px 0px 15px 0px;
+}
+aside .submit{
+	margin: 0 auto;
+	width: 1180px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	font-family: 黑体;
+	color: #fff;
+	background: #3355D0;
+	border:0px;
+	border-radius: 10px;
+}
+footer{
+	height: 70px;
+	width: 1280px;
+	background: #000;
+	text-align: center;
+}
+footer span{
+	line-height: 70px;
+	color: #fff;
+	font-size: 14px;
+}

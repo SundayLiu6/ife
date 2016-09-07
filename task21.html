@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>task21</title>
+		<style>
+			label{
+				font: 20px "微软雅黑";
+			}
+			input{
+				height: 20px;
+				width: 200px;
+			}
+			textarea{
+				margin-top: 20px;
+			}
+			button{
+				border: 1px solid #C5C5C3;
+				border-radius: 3px;
+				background-color: #fff;
+				font: 14px "微软雅黑";
+				padding: 0 1px;
+			}
+			#tagShow,#hobby{
+				display: flex;
+			}
+			#tagShow div,#hobby div{
+				color: #fff;
+				margin: 5px;
+				padding: 10px;
+				font: 18px "微软雅黑";
+			}
+			#tagShow div{
+				background-color: #85CAFF;
+			}
+			#hobby div{
+				background-color: #FFCA8B;
+			}
+		</style>
+	</head>
+	<body>
+		<label for="tag">Tag:</label>
+		<input type="text" id="tag" />
+		<div id="tagShow"></div>
+		<textarea rows="5" cols="30" placeholder="请输入您的爱好"></textarea></br>
+		<button id="btn">确认兴趣爱好</button>
+		<div id="hobby"></div>
+		<script type="text/javascript" src="js/task21.js" ></script>
+	</body>
+</html>
