@@ -12,10 +12,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	color: #5B5B5B;
-<<<<<<< HEAD
 	min-width: 1000px;
-=======
->>>>>>> 96d00acbeb7fde3048bc6db3fcf020fa0a4a8769
 }
 
 h1, h2, h3 {
@@ -321,23 +318,13 @@ a:hover {
 }
 
 #sidebar li ul {
-<<<<<<< HEAD
-=======
-	clear: both;
->>>>>>> 96d00acbeb7fde3048bc6db3fcf020fa0a4a8769
 	margin: 0px 0px;
 	padding-bottom: 30px;
 }
 
-<<<<<<< HEAD
 
 #sidebar li li {
 	line-height: 40px;
-=======
-#sidebar li li {
-	line-height: 40px;
-	border-bottom: 1px solid #E7EBED;
->>>>>>> 96d00acbeb7fde3048bc6db3fcf020fa0a4a8769
 	margin: 0px 0px;
 	border-left: none;
 }
@@ -351,30 +338,18 @@ a:hover {
 }
 
 #sidebar li li a {
-<<<<<<< HEAD
 	/*padding: 0px 0px 0px 20px;*/
 	/*background: url(../img/img04.jpg) no-repeat left 50%;*/
-=======
-	padding: 0px 0px 0px 20px;
-	background: url(../img/img04.jpg) no-repeat left 50%;
->>>>>>> 96d00acbeb7fde3048bc6db3fcf020fa0a4a8769
 	text-decoration: none;
 }
 
 #sidebar h2 {
 	height: 38px;
-<<<<<<< HEAD
 	padding: 20px 0px;
 	letter-spacing: -.5px;
 	font-size: 1.8em;
 	color: #222222;
 	clear: both;
-=======
-	padding: 0px 0px 30px 0px;
-	letter-spacing: -.5px;
-	font-size: 1.8em;
-	color: #222222;
->>>>>>> 96d00acbeb7fde3048bc6db3fcf020fa0a4a8769
 }
 
 #sidebar p {
@@ -383,21 +358,13 @@ a:hover {
 	text-align: justify;
 }
 
-<<<<<<< HEAD
 /*#sidebar a {
-=======
-#sidebar a {
->>>>>>> 96d00acbeb7fde3048bc6db3fcf020fa0a4a8769
 	border: none;
 }
 
 #sidebar a:hover {
 	text-decoration: underline;
-<<<<<<< HEAD
 }*/
-=======
-}
->>>>>>> 96d00acbeb7fde3048bc6db3fcf020fa0a4a8769
 
 /* Calendar */
 
@@ -560,7 +527,6 @@ a:hover {
 .list-style1 a {
 	color: #7F7F7F;
 }
-<<<<<<< HEAD
 
 /*button*/
 .button{
@@ -589,5 +555,3 @@ a:hover {
 	color: #fff;
 	background-color: #000;
 }
-=======
->>>>>>> 96d00acbeb7fde3048bc6db3fcf020fa0a4a8769
